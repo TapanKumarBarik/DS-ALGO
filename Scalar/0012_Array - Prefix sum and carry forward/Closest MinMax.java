@@ -51,3 +51,42 @@
  * 
  * 
  */
+
+public class Solution {
+    public int solve(int[] A) {
+        int n = A.length;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            min = Math.min(min, A[i]);
+            max = Math.max(max, A[i]);
+        }
+        if (max == min)
+            return 1;
+        int ans = n;
+        for (int i = 0; i < n; i++) {
+            if (A[i] == max) {
+                int count = 1;
+                for (int j = i + 1; j < n; j++) {
+                    count++;
+                    if (A[j] == min) {
+                        ans = Math.min(ans, count);
+                        break;
+                    }
+                }
+            }
+            // min
+            if (A[i] == min) {
+                int count = 1;
+                for (int j = i + 1; j < n; j++) {
+                    count++;
+                    if (A[j] == max) {
+                        ans = Math.min(ans, count);
+                        break;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+}
