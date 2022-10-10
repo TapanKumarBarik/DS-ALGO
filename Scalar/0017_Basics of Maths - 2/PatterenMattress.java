@@ -1,4 +1,9 @@
 
+// Mr. Vincent works in a doormat manufacturing company. One day, he designed a new doormat with the following specifications:
+// Mat size must be  N X M. ( N is an odd natural number, and M is 3 times N.)
+// The design should have 'WELCOME' written in the center.
+// The design pattern should only use |, . and - characters.
+
 /*
 7*21
 ---------.|.---------
