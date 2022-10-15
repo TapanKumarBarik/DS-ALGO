@@ -26,7 +26,7 @@ It is guaranteed that  is an odd number and that there is one unique element.
 , where .
 */
 
-//https://www.hackerrank.com/challenges/one-week-preparation-kit-lonely-integer/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D%5B%5D=preparation-kits&playlist_slugs%5B%5D%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D%5B%5D=one-week-day-two
+//https://www.hackerrank.com/challenges/one-week-preparation-kit-lonely-integer/problem
 
 
 
