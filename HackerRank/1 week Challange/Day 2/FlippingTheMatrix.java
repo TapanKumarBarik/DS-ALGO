@@ -1,3 +1,6 @@
+
+https://github.com/TapanKumarBarik/DS-ALGO/blob/main/HackerRank/1%20week%20Challange/Day%202/FlippingTheMatrix_Day2.pdf
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
