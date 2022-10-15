@@ -49,7 +49,7 @@ Hints: Beware of integer overflow! Use 64-bit Integer.
 Need help to get started? Try the Solve Me First problem
 */
 
-//https://www.hackerrank.com/challenges/one-week-preparation-kit-mini-max-sum/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one
+//https://www.hackerrank.com/challenges/one-week-preparation-kit-mini-max-sum/problem
 import java.io.*;
 import java.math.*;
 import java.security.*;
