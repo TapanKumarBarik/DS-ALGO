@@ -51,6 +51,38 @@ Explanation 2:
  In the sequence shown in explanation 1, 10th element will be 650.
 
  */
+//***************************************************8 */
+/*
+ * public class Solution {
+    public int solve(int A) {
+        // int ans = 0;
+        // int x = 1;
+        // while(n > 0) {
+        //     x *= 5;
+        //     if(n%2 == 1)   {
+        //          ans += x;
+        //     }
+        //     n /= 2;
+        // }
+        // return ans;
+
+        //******************************88
+        int ans=0;
+        int index=1;
+
+        while(A!=0){
+            int curr=(A&1);
+           if(curr!=0){
+                ans+=(int)Math.pow(5,index);
+           }
+            index++;
+            A=A>>1;
+        }
+        return ans;
+    }
+}
+
+ */
 
 public class Solution {
     public int solve(int A) {
